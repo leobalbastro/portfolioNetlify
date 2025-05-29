@@ -26,12 +26,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "Gulubu Website",
-    description: "MVP de un sitio web para una empresa dedicada a la venta de productos literarios",
+    title: "Hotel Website",
+    description: "MVP de un sitio web para una empresa dedicada a la gestión de hoteles",
     technologies: ["Bootstrap", "React", "MongoDB", "API REST", "CSS"],
-    image: "/gulubu.svg?height=200&width=300",
-    github: "#",
-    demo: "https://gulubu.netlify.app",
+    image: "/placeholder.svg?height=200&width=300",
+    github: "https://github.com/GianlucaR34/Proyecto3-FrontEnd",
+    demo: "https://hotelmvp.netlify.app",
     status: "Completado",
   },
 ]
