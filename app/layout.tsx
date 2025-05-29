@@ -26,6 +26,23 @@ export const metadata: Metadata = {
     locale: "es_ES",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Leonardo Balbastro Portfolio",
+    description: "Portfolio de desarrollador Java especializado en Spring Boot y Oracle Database",
+    images: ["https://leobalbastro.netlify.app/Portfolio.png"],
+  },
+  keywords: [
+    "Leonardo Balbastro",
+    "Desarrollador Java",
+    "Spring Boot",
+    "Oracle Database",
+    "Portfolio",
+    "Desarrollo Web",
+    "Programación",
+    "Backend Developer",
+    "Java Developer",
+  ],
 }
 
 export default function RootLayout({
