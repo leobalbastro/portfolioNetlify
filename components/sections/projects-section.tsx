@@ -87,6 +87,7 @@ export default function ProjectsSection() {
                     size="sm"
                     variant="outline"
                     className="flex-1 border-slate-600 text-slate-300 hover:border-orange-500 hover:text-orange-400"
+                    onClick={() => window.open(project.github, "_blank")}
                   >
                     <Github className="w-4 h-4 mr-2" />
                     Código
