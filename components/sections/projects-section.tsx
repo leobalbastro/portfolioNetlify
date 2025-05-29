@@ -12,7 +12,7 @@ const projects = [
     image: "/placeholder.svg?height=200&width=300",
     github: "#",
     demo: "#",
-    status: "Producción",
+    status: "Desarrollo",
   },
   {
     id: 2,
