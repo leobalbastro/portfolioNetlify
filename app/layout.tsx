@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     siteName: "Leonardo Balbastro Portfolio",
     images: [
       {
-        url: "Portolio.png",
-        secureUrl: "https://leobalbastro.netlify.app/Portolio.png",
+        url: "Portfolio.png",
+        secureUrl: "https://leobalbastro.netlify.app/Portfolio.png",
         type: "image/png",
         width: 1200,
         height: 630,
