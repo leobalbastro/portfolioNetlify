@@ -10,7 +10,7 @@ const projects = [
     description: "Proyecto de Karaoke con funcionalidades multijugador online",
     technologies: ["Spring Boot", "Oracle DB", "Spring Security", "REST APIs", "Angular 17", "WebSockets", "Docker"],
     image: "/placeholder.svg?height=200&width=300",
-    github: "#",
+    github: "https://github.com/leobalbastro/Bereoke.git",
     demo: "#",
     status: "Desarrollo",
   },
