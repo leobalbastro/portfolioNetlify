@@ -91,7 +91,7 @@ export default function ProjectsSection() {
                     <Github className="w-4 h-4 mr-2" />
                     Código
                   </Button>
-                  <Button size="sm" className="flex-1 bg-orange-600 hover:bg-orange-700">
+                  <Button size="sm" className="flex-1 bg-orange-600 hover:bg-orange-700" onClick={() => window.open(project.demo, "_blank")}>
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Demo
                   </Button>
