@@ -19,17 +19,17 @@ const projects = [
     title: "Personal Portfolio Site",
     description: "Sitio web personal para mostrar proyectos y habilidades técnicas",
     technologies: ["Next.js", "TailwindCSS", "REST APIs", "Lazy Loading"],
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/Portfolio.png?height=200&width=300",
     github: "https://github.com/leobalbastro/portfolioNetlify",
     demo: "https://leobalbastro.netlify.app",
-    status: "Desarrollo",
+    status: "Completado",
   },
   {
     id: 3,
     title: "Hotel Website",
     description: "MVP de un sitio web para una empresa dedicada a la gestión de hoteles",
     technologies: ["Bootstrap", "React", "MongoDB", "API REST", "CSS"],
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/goldenLux.png?height=200&width=300",
     github: "https://github.com/GianlucaR34/Proyecto3-FrontEnd",
     demo: "https://hotelmvp.netlify.app",
     status: "Completado",
@@ -54,7 +54,13 @@ export default function ProjectsSection() {
               style={{ animationDelay: `${index * 200}ms` }}
             >
               <div className="aspect-video bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-t-lg relative overflow-hidden">
-                <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-slate-900/10 transition-colors duration-300"></div>
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  style={{ filter: "grayscale(0.5)" }}
+                />
+                {/* <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-slate-900/10 transition-colors duration-300"></div> */}
               </div>
               <CardHeader className="pb-4">
                 <div className="flex justify-between items-start mb-2">
@@ -62,8 +68,8 @@ export default function ProjectsSection() {
                     {project.title}
                   </CardTitle>
                   <Badge
-                    variant={project.status === "Producción" ? "default" : "secondary"}
-                    className={project.status === "Producción" ? "bg-green-600 hover:bg-green-700" : ""}
+                    variant={project.status === "Desarrollo" ? "default" : "secondary"}
+                    className={project.status === "Desarrollo" ? "bg-orange-600 hover:bg-orange-700" : "bg-green-600 hover:bg-green-700"}
                   >
                     {project.status}
                   </Badge>
