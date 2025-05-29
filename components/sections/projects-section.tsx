@@ -20,8 +20,8 @@ const projects = [
     description: "Sitio web personal para mostrar proyectos y habilidades técnicas",
     technologies: ["Next.js", "TailwindCSS", "REST APIs", "Lazy Loading"],
     image: "/placeholder.svg?height=200&width=300",
-    github: "#",
-    demo: "#",
+    github: "https://github.com/leobalbastro/portfolioNetlify",
+    demo: "https://leobalbastro.netlify.app",
     status: "Desarrollo",
   },
   {
